@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Urbanist:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 100;
+}
+body{
+    background-color: rgb(216, 227, 237);
+}
+header{
+    background-color: hwb(240 5% 81%);
+}
+.logo img{
+    margin-top: -1px;
+    transition-duration: 0.5s;
+}
+.logo img:hover{
+    filter: drop-shadow(1px 1px 30px white);
+    transform: scale(0.9);
+}
+ul{
+background-color: rgb(54, 54, 121);
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 35px;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: large;  
+}
+nav ul li a{
+    color: white;
+    padding: 7px 15px;
+    transition-duration: 0.5s;
+}
+li a:hover{
+    transform: scale(1.2);
+    transition-timing-function: ease-out;
+    background-color: hwb(240 5% 81%);
+    text-shadow: 0px 0px 7px white;
+    
+}
+body{
+    background-color: rgb(195, 195, 220);
+}
+footer{
+    background-color: rgb(54, 54, 121) ;
+    color: white;
+    font-size: large;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.badges{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 6px;
+}
+.items{
+    color: black;
+    font-weight: bolder;
+    margin: 30px;
+    background-color: rgb(180, 180, 202);
+    height: 450px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.items h3{
+    margin-left: 64px;
+    font-weight: bold;
+    font-size: larger;
+}
+.items h3:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.workers h3{
+    margin-left: 64px;
+    font-weight: bold;
+    font-size: larger;
+}
+.workers h3:hover{
+    text-decoration: underline;
+}
+#bad{
+    border-radius: 200px;
+    border-color: aliceblue;
+    transition-duration: 0.4s;
+}
+#bad:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 3px 30px black;
+}
+.people{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.workers{
+    font-size: x-large;
+    background-color: rgb(180, 180, 202);
+    margin: 30px;
+    height: 450px;
+}
+#human{
+    border-color: white;
+    border-radius: 200px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+}
+#human:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 3px 30px black;
+}
